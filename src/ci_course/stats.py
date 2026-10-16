@@ -19,7 +19,7 @@ def summarise(values):
         deviation, minimum and maximum.
     """
     values = np.asarray(values, dtype=float)
-    present = values[~np.isnan(values)]
+    present = values
 
     if present.size == 0:
         return {"n": 0, "mean": float("nan"), "sd": float("nan"),
