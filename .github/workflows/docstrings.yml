@@ -26,4 +26,3 @@ jobs:
       - name: Docstrings with ruff
         run: |
           ruff check --select D src/
-

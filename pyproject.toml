@@ -54,6 +54,3 @@ testpaths = ["tests"]
 [tool.coverage.run]
 source = ["ci_course"]
 branch = true
-
-
-

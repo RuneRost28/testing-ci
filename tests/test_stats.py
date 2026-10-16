@@ -37,5 +37,3 @@ def test_summarise_zero():
 def test_summarise_one():
     summaries = ci_course.summarise(1)
     assert summaries["n"] == 1
-
-
