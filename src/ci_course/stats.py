@@ -5,8 +5,7 @@ import numpy as np
 
 def summarise(values):
     """
-    Summarise one column of measurements, ignoring any missing values.
-
+    Summarise one column of measurements, ignoring any missing values. This sentence is an addition to test something.
     Parameters
     ----------
     values : array_like
