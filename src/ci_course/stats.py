@@ -22,7 +22,7 @@ def summarise(values):
     present = values[~np.isnan(values)]
 
     if present.size == 0:
-        return {"n": 0, "mean": float("nan"), "sd": float("nan"),
+        return {"n": 1, "mean": float("nan"), "sd": float("nan"),
             "min": float("nan"), "max": float("nan")}
 
     if present.size == 1:
